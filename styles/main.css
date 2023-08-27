@@ -1,7 +1,7 @@
 html, 
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   height: 100%;
   background: #f3e7c8;
   font-family: 'Raleway', sans-serif;
@@ -11,6 +11,7 @@ body {
 
 main {
   margin-left: 210px;
+  margin-right: 210px;
   flex: 1 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -18,6 +19,7 @@ main {
 }
 
 p {
+  margin-top: 0;
   text-align: justify;
   text-indent: 2em;
 }
@@ -40,7 +42,6 @@ header nav {
   display: flex;
   font-size: 1.2em;
   background: #C8B27A;
-  list-style-type: none;
 }
 header nav ul {
   padding: 0;
@@ -88,16 +89,20 @@ footer * {
   padding: 8px 0;
 }
 
-.nav-zero {
+.list-zero {
   padding: 0;
   margin: 0;
 }
-.nav-zero li {
+.list-zero li {
   padding-bottom: 10;
 }
-.nav-zero li:last-child {
+.list-zero li:last-child {
   padding: 0;
 }
-.nav-zero label {
+.list-zero label {
   padding-left: 2em;
+}
+
+.no-marks {
+  list-style-type: none;
 }
