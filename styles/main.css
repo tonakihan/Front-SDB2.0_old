@@ -96,9 +96,6 @@ footer * {
 .list-zero li {
   padding-bottom: 10;
 }
-.list-zero li:last-child {
-  padding: 0;
-}
 .list-zero label {
   padding-left: 2em;
 }
