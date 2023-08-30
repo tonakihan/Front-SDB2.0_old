@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
@@ -10,11 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
     />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="scripts/dynamic-menu.js"></script>
   </head>
 
   <body>
     <header>
-      <img src="images/logo.jpg" width="50" height="50" />
+      <img alt="" src="images/logo.jpg" width="50" height="50" />
       <h1>Select</h1>
       <nav>
         <ul>
@@ -27,9 +30,19 @@
     </header>
 
     <main>
-      <article>
-        <p>В процессе</p>
-      </article>
+      <br />
+      <form>
+        <label for="target" class="name-set">Тип данных</label>
+        <select id="target" class="set-mode">
+          <option value="Cтудент" selected>Студенты</option>
+          <option value="Направление">Направления</option>
+          <option value="Посещаемость">Посещаемость</option>
+          <option value="Ведомость">Ведомость</option>
+          <option value="Тема_занятия">Тема занятий</option>
+          <option value="Предмет">Предмет</option>
+          <option value="Факультет">Факультет</option>
+        </select>
+      </form>
     </main>
 
     <footer>

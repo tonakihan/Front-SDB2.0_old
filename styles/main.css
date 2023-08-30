@@ -103,3 +103,9 @@ footer * {
 .no-marks {
   list-style-type: none;
 }
+
+.name-set {
+  margin: 0;
+  font-size: 0.9em;
+  font: inherit;
+}
